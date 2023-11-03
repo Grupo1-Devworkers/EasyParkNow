@@ -15,6 +15,8 @@ import {MatSelectModule} from "@angular/material/select";
 import { MapComponent } from './public/pages/map/map.component';
 import { HomeComponent } from './public/pages/home/home.component';
 import { LoginComponent } from './public/pages/login/login.component';
+import { ModalComponent } from './public/pages/modal/modal.component';
+import { ModalReservationComponent } from './public/pages/modal-reservation/modal-reservation.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { LoginComponent } from './public/pages/login/login.component';
     PageNotFoundComponent,
     MapComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    ModalComponent,
+    ModalReservationComponent
   ],
   imports: [
     AppRoutingModule,

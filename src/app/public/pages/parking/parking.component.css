@@ -69,18 +69,15 @@
 
 
 
-.seccion {
-  text-align: center; /* Centra los elementos horizontalmente dentro de la sección */
-}
-.contenedor {
-  height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+
+.contain {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; /* Alinea los botones en la parte inferior de la pantalla */
+  justify-content: flex-end;
 }
 
-.botones {
-  display: flex;
-  justify-content: space-between; /* Distribuye los botones de manera equitativa en el espacio disponible */
-  padding: 20px; /* Añade espacio entre los botones si es necesario */
+.button {
+  margin: 10px;
+  text-align: center;
 }

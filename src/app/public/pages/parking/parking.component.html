@@ -38,17 +38,27 @@
         </mat-select>
       </mat-form-field>
 
-      <button class="boton-personalizado" mat-button>RESERVE</button>
+
+      <button class = "boton-personalizado" (click) ="openModal()">RESERVE</button>
+     <div class = "" *ngIf ="modalSwitch == true">
+      <app-modal></app-modal>
+     </div>
+
+
     </div>
 
   </div>
 
-  <div class=" contenedor ">
-    <div class=" botones">
-      <button mat-button class=" boton-personalizado">BACK</button>
-      <button mat-button class=" boton-personalizado">SEE MAP</button>
-      <button mat-button class=" boton-personalizado">NEXT PARKING LOT</button>
-    </div>
+  <div class=" contain ">
+      <div class="button">
+        <button mat-button class="  boton-personalizado">BACK</button>
+      </div>
+      <div class="button">
+        <button mat-button class="  boton-personalizado">SEE MAP</button>
+      </div>
+      <div class="button">
+        <button mat-button class="  boton-personalizado">NEXT PARKING LOT</button>
+      </div>
   </div>
 
 </div>
