@@ -1,0 +1,26 @@
+
+<div class="margen">
+
+    <div>
+      <img class="rounded-image" [src]="perfil" alt="home" width="150" height="150">
+      <ul>
+        <br><li>Marco Ramirez Ojeda</li>
+        <li>Nissan Model XI</li>
+      </ul>
+    </div>
+
+    <div class="button">
+      <div  class= "container">
+        <h1 class="centered-text">See Map</h1>
+        <div  class= "buttons">
+          <img [src]="mapa" (click)="clickMap()" alt="home" width="180" height="180">
+          <img [src]="opciones" (click)="clickOption() " alt="home" width="180" height="180">
+        </div>
+        <h1 class= "centered-text " >Options</h1>
+      </div>
+    </div>
+  <div>
+    <button class="custom-button"  (click)="onClick()">FIND NEARBY PARKING</button>
+  </div>
+  </div>
+

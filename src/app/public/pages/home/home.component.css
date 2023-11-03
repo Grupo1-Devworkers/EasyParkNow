@@ -1,0 +1,53 @@
+.margen {
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-top: 40px;
+}
+
+.rounded-image {
+  border-radius: 20px;
+  margin-right: 40px;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.button {
+  margin-top: 120px;
+}
+
+.buttons {
+  cursor: pointer;
+}
+
+.text-left {
+  float: left;
+  margin-right: 50px;
+  font-size: 18px;
+}
+
+
+
+.container {
+  display: flex;
+  align-items: center; /* Centra verticalmente */
+  justify-content: center; /* Centra horizontalmente */
+}
+
+.centered-text {
+  font-size: 25px;
+  margin-right: 40px; /* Ajusta el espacio entre la imagen y el texto según tus necesidades */
+}
+
+.custom-button {
+  background-color: #b7ffb6;
+  color: #000000;
+  font-size: 10px;
+  padding: 50px 450px;
+  cursor: pointer;
+  border: 2px solid #000000;
+  margin-top: 20px;
+}
+

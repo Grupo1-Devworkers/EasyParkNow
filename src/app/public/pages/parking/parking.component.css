@@ -1,0 +1,86 @@
+.margen {
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.profile {
+  float: left;
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.rounded-image {
+  border-radius: 20px;
+}
+
+.right {
+  float: right;
+
+}
+.left {
+  float: left;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  margin: 0 10px;
+}
+
+.card {
+  border: 3px solid #000000;
+  border-radius: 20px;
+  margin: auto;
+  padding: 25px;
+}
+
+.card-title {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+}
+
+.card-text {
+  font-size: 1.5rem;
+
+}
+
+.boton-personalizado {
+  background-color: #76ee69;
+  font-size: 20px;
+  padding: 15px 35px;
+  cursor: pointer;
+  border: 1px solid #000000;
+  border-radius: 10px;
+
+}
+
+.image_star{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.space {
+  margin-right: 20px;
+
+}
+
+
+
+.seccion {
+  text-align: center; /* Centra los elementos horizontalmente dentro de la sección */
+}
+.contenedor {
+  height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Alinea los botones en la parte inferior de la pantalla */
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between; /* Distribuye los botones de manera equitativa en el espacio disponible */
+  padding: 20px; /* Añade espacio entre los botones si es necesario */
+}

@@ -1,0 +1,31 @@
+.imagen-redondeada {
+  border-radius: 20px;
+  left: 10px;
+}
+
+.imagen {
+  float: left;
+  margin-right: 40px;
+  margin-left: 100px;
+
+}
+
+.espacio{
+  margin-bottom: 30px;
+}
+
+.boton-personalizado {
+  background-color: #cecece;
+  color: #000000;
+  font-size: 25px;
+  padding: 20px 100px;
+  cursor: pointer;
+  border: 2px solid #000000;
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+.boton-personalizado:hover {
+  background-color: #919191;
+}
