@@ -14,9 +14,13 @@ import {MatInputModule} from "@angular/material/input";
 import {MatSelectModule} from "@angular/material/select";
 import { MapComponent } from './public/pages/map/map.component';
 import { HomeComponent } from './public/pages/home/home.component';
-import { LoginComponent } from './public/pages/login/login.component';
 import { ModalComponent } from './public/pages/modal/modal.component';
 import { ModalReservationComponent } from './public/pages/modal-reservation/modal-reservation.component';
+import {SignInComponent} from "./public/pages/sign-in/sign-in.component";
+import {SignUpComponent} from "./public/pages/sign-up/sign-up.component";
+import {ReactiveFormsModule} from "@angular/forms";
+import {MatGridListModule} from "@angular/material/grid-list";
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -25,20 +29,26 @@ import { ModalReservationComponent } from './public/pages/modal-reservation/moda
     PageNotFoundComponent,
     MapComponent,
     HomeComponent,
-    LoginComponent,
+    SignInComponent,
+    SignUpComponent,
     ModalComponent,
-    ModalReservationComponent
+    ModalReservationComponent,
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
     RouterLink,
     MatCardModule,
     MatInputModule,
-    MatSelectModule
+    MatSelectModule,
+    ReactiveFormsModule,
+    MatGridListModule,
+    MatInputModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
