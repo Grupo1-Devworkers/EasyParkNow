@@ -15,8 +15,8 @@ import {MatSelectModule} from "@angular/material/select";
 import { MapComponent } from './public/pages/map/map.component';
 import { HomeComponent } from './public/pages/home/home.component';
 import { LoginComponent } from './public/pages/login/login.component';
-import { ModalComponent } from './public/pages/modal/modal.component';
-import { ModalReservationComponent } from './public/pages/modal-reservation/modal-reservation.component';
+import { ReviewComponent } from './public/pages/review/review.component';
+import {MatIconModule} from "@angular/material/icon";
 
 @NgModule({
   declarations: [
@@ -26,20 +26,20 @@ import { ModalReservationComponent } from './public/pages/modal-reservation/moda
     MapComponent,
     HomeComponent,
     LoginComponent,
-    ModalComponent,
-    ModalReservationComponent
+    ReviewComponent
   ],
-  imports: [
-    AppRoutingModule,
-    BrowserModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-    MatButtonModule,
-    RouterLink,
-    MatCardModule,
-    MatInputModule,
-    MatSelectModule
-  ],
+    imports: [
+        AppRoutingModule,
+        BrowserModule,
+        BrowserAnimationsModule,
+        MatToolbarModule,
+        MatButtonModule,
+        RouterLink,
+        MatCardModule,
+        MatInputModule,
+        MatSelectModule,
+        MatIconModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

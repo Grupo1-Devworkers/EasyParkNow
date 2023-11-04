@@ -5,6 +5,7 @@ import {PageNotFoundComponent} from "./public/pages/page-not-found/page-not-foun
 import {HomeComponent} from "./public/pages/home/home.component";
 import {MapComponent} from "./public/pages/map/map.component";
 import {LoginComponent} from "./public/pages/login/login.component";
+import {ReviewComponent} from "./public/pages/review/review.component";
 
 const routes: Routes = [
   {path:'login', component: LoginComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path:'', redirectTo:'login', pathMatch:'full'},
   {path:'parking', component: ParkingComponent},
   {path:'map', component: MapComponent},
+  {path:'review', component: ReviewComponent},
   {path:'**', component: PageNotFoundComponent},
 
 ];
