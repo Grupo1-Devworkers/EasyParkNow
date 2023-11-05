@@ -3,8 +3,8 @@ import {BaseService} from "../../../share/services/base.service";
 
 @Component({
   selector: 'app-recommendation',
-  templateUrl: './recommendation.component.html',
-  styleUrls: ['./recommendation.component.css']
+  templateUrl: './recommendations.component.html',
+  styleUrls: ['./recommendations.component.css']
 })
 export class RecommendationComponent implements OnInit{
   parkingLots: Array<any> = [];

@@ -15,7 +15,7 @@ import {MatSelectModule} from "@angular/material/select";
 import { MapComponent } from './public/pages/map/map.component';
 import { HomeComponent } from './public/pages/home/home.component';
 import { LoginComponent } from './public/pages/login/login.component';
-import { RecommendationsComponent } from './public/pages/recommendations/recommendations.component';
+import { RecommendationComponent } from './public/pages/recommendations/recommendations.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,7 @@ import { RecommendationsComponent } from './public/pages/recommendations/recomme
     MapComponent,
     HomeComponent,
     LoginComponent,
-    RecommendationsComponent
+    RecommendationComponent
   ],
   imports: [
     AppRoutingModule,
