@@ -4,7 +4,6 @@ import {ParkingComponent} from "./public/pages/parking/parking.component";
 import {PageNotFoundComponent} from "./public/pages/page-not-found/page-not-found.component";
 import {HomeComponent} from "./public/pages/home/home.component";
 import {MapComponent} from "./public/pages/map/map.component";
-import {LoginComponent} from "./public/pages/login/login.component";
 import {ReviewComponent} from "./public/pages/review/review.component";
 import {TopparkingsComponent} from "./public/pages/topparkings/topparkings.component";
 import {HistoryComponent} from "./public/pages/history/history.component";
@@ -16,18 +15,16 @@ import {SignUpComponent} from "./public/pages/sign-up/sign-up.component";
 
 const routes: Routes = [
   {path:'home', component : HomeComponent},
-  {path: '', redirectTo: 'home', pathMatch: 'full'},
-  {path: 'sign-in', component: SignInComponent},
-  {path: 'sign-up', component: SignUpComponent},
-  {path:'home', component: HomeComponent},
-  {path:'', redirectTo:'login', pathMatch:'full'},
+  {path:'', redirectTo: 'home', pathMatch: 'full'},
+  {path:'sign-in', component: SignInComponent},
+  {path:'sign-up', component: SignUpComponent},
   {path:'parking', component: ParkingComponent},
   {path:'map', component: MapComponent},
   {path:'review', component: ReviewComponent},
-  {path: 'topparkings', component: TopparkingsComponent},
-  {path: 'history', component: HistoryComponent},
-  {path: 'modal', component: ModalComponent},
-  {path: 'modal-reservation', component: ModalReservationComponent},
+  {path:'topparkings', component: TopparkingsComponent},
+  {path:'history', component: HistoryComponent},
+  {path:'modal', component: ModalComponent},
+  {path:'modal-reservation', component: ModalReservationComponent},
   {path:'**', component: PageNotFoundComponent},
 
 ];

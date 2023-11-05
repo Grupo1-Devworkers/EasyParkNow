@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ParkingComponent } from './public/pages/parking/parking.component';
@@ -14,16 +13,11 @@ import {MatInputModule} from "@angular/material/input";
 import {MatSelectModule} from "@angular/material/select";
 import { MapComponent } from './public/pages/map/map.component';
 import { HomeComponent } from './public/pages/home/home.component';
-
-import { LoginComponent } from './public/pages/login/login.component';
 import { ReviewComponent } from './public/pages/review/review.component';
 import {MatIconModule} from "@angular/material/icon";
 import { TopparkingsComponent } from './public/pages/topparkings/topparkings.component';
 import { HistoryComponent } from './public/pages/history/history.component';
 import {MatTableModule} from "@angular/material/table";
-import {ModalComponent} from "./public/pages/modal/modal.component";
-import {ModalReservationComponent} from "./public/pages/modal-reservation/modal-reservation.component";
-
 import { ModalComponent } from './public/pages/modal/modal.component';
 import { ModalReservationComponent } from './public/pages/modal-reservation/modal-reservation.component';
 import {SignInComponent} from "./public/pages/sign-in/sign-in.component";
@@ -40,8 +34,6 @@ import {HttpClientModule} from "@angular/common/http";
     PageNotFoundComponent,
     MapComponent,
     HomeComponent,
-
-    LoginComponent,
     ReviewComponent,
     TopparkingsComponent,
     HistoryComponent,
@@ -63,14 +55,12 @@ import {HttpClientModule} from "@angular/common/http";
     MatCardModule,
     MatInputModule,
     MatSelectModule,
-
     MatIconModule,
-    MatTableModule
-
+    MatTableModule,
     ReactiveFormsModule,
     MatGridListModule,
     MatInputModule,
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
