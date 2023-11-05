@@ -17,6 +17,8 @@ import { HomeComponent } from './public/pages/home/home.component';
 import { LoginComponent } from './public/pages/login/login.component';
 import { ReviewComponent } from './public/pages/review/review.component';
 import {MatIconModule} from "@angular/material/icon";
+import { TopparkingsComponent } from './public/pages/topparkings/topparkings.component';
+import { HistoryComponent } from './public/pages/history/history.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import {MatIconModule} from "@angular/material/icon";
     MapComponent,
     HomeComponent,
     LoginComponent,
-    ReviewComponent
+    ReviewComponent,
+    TopparkingsComponent,
+    HistoryComponent
   ],
     imports: [
         AppRoutingModule,

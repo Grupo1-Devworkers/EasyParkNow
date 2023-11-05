@@ -6,6 +6,8 @@ import {HomeComponent} from "./public/pages/home/home.component";
 import {MapComponent} from "./public/pages/map/map.component";
 import {LoginComponent} from "./public/pages/login/login.component";
 import {ReviewComponent} from "./public/pages/review/review.component";
+import {TopparkingsComponent} from "./public/pages/topparkings/topparkings.component";
+import {HistoryComponent} from "./public/pages/history/history.component";
 
 const routes: Routes = [
   {path:'login', component: LoginComponent},
@@ -14,6 +16,8 @@ const routes: Routes = [
   {path:'parking', component: ParkingComponent},
   {path:'map', component: MapComponent},
   {path:'review', component: ReviewComponent},
+  {path: 'topparkings', component: TopparkingsComponent},
+  {path: 'history', component: HistoryComponent},
   {path:'**', component: PageNotFoundComponent},
 
 ];
