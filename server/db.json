@@ -1,0 +1,32 @@
+{
+  "parking": [
+    {
+      "id": 1,
+      "name": "parking seguro",
+      "city": "Lima",
+      "street": "Jr Soria",
+      "description": "Estacionate a aqui",
+      "time": 1,
+      "price": 15
+    },
+    {
+      "id": 2,
+      "name": "parking Julio",
+      "city": "Lima",
+      "street": "Av Grau",
+      "description": "Estacionate a aqui",
+      "time": 3,
+      "price": 7
+    },
+
+    {
+      "id": 3,
+      "name": "parking Figueroa",
+      "city": "Lince",
+      "street": "Av Naranjales",
+      "description": "Estacionate a aqui",
+      "time": 2,
+      "price": 6
+    }
+  ]
+}
