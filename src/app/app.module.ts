@@ -20,6 +20,8 @@ import {MatIconModule} from "@angular/material/icon";
 import { TopparkingsComponent } from './public/pages/topparkings/topparkings.component';
 import { HistoryComponent } from './public/pages/history/history.component';
 import {MatTableModule} from "@angular/material/table";
+import {ModalComponent} from "./public/pages/modal/modal.component";
+import {ModalReservationComponent} from "./public/pages/modal-reservation/modal-reservation.component";
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import {MatTableModule} from "@angular/material/table";
     LoginComponent,
     ReviewComponent,
     TopparkingsComponent,
-    HistoryComponent
+    HistoryComponent,
+    ModalComponent,
+    ModalReservationComponent
   ],
   imports: [
     AppRoutingModule,
