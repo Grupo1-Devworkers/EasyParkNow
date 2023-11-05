@@ -29,6 +29,11 @@
       "email": "g@upc.com",
       "password": "$2a$10$G5N3eLpjIyB43p8SRuv5a.4JXGOsHjCLWSkJZseCK6dbNlkm9pfsa",
       "id": 2
+    },
+    {
+      "email": "lastra@upc.com",
+      "password": "$2a$10$NzcYbsG5Nyzd4KLYRZu2N.bfyN1wqjmCUJd3Yr6rkqGfKRlPC5HR6",
+      "id": 3
     }
   ]
 }
