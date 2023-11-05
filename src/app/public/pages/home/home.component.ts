@@ -9,6 +9,8 @@ export class HomeComponent {
   perfil: string = 'assets/anime.jpg';
   mapa: string = 'assets/mapa.png';
   opciones: string = 'assets/opciones.png';
+  topparking: string = 'assets/badge.png';
+  history: string = 'assets/historial.png'
 
   constructor(private router: Router) {}
   clickMap() {
@@ -20,5 +22,10 @@ export class HomeComponent {
   onClick() {
     this.router.navigate(['./parking']);
   }
-
+  clickTopParking() {
+    this.router.navigate(['./topparkings']);
+  }
+  clickHistory() {
+    this.router.navigate(['./history']);
+  }
 }

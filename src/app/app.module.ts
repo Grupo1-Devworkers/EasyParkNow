@@ -15,8 +15,11 @@ import {MatSelectModule} from "@angular/material/select";
 import { MapComponent } from './public/pages/map/map.component';
 import { HomeComponent } from './public/pages/home/home.component';
 import { LoginComponent } from './public/pages/login/login.component';
-import { ModalComponent } from './public/pages/modal/modal.component';
-import { ModalReservationComponent } from './public/pages/modal-reservation/modal-reservation.component';
+import { ReviewComponent } from './public/pages/review/review.component';
+import {MatIconModule} from "@angular/material/icon";
+import { TopparkingsComponent } from './public/pages/topparkings/topparkings.component';
+import { HistoryComponent } from './public/pages/history/history.component';
+import {MatTableModule} from "@angular/material/table";
 
 @NgModule({
   declarations: [
@@ -26,8 +29,9 @@ import { ModalReservationComponent } from './public/pages/modal-reservation/moda
     MapComponent,
     HomeComponent,
     LoginComponent,
-    ModalComponent,
-    ModalReservationComponent
+    ReviewComponent,
+    TopparkingsComponent,
+    HistoryComponent
   ],
   imports: [
     AppRoutingModule,
@@ -38,7 +42,9 @@ import { ModalReservationComponent } from './public/pages/modal-reservation/moda
     RouterLink,
     MatCardModule,
     MatInputModule,
-    MatSelectModule
+    MatSelectModule,
+    MatIconModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

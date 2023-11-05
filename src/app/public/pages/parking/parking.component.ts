@@ -1,5 +1,4 @@
 import {Component, Input, OnInit, ViewChild} from '@angular/core';
-import {ModalComponent} from "../modal/modal.component";
 import {BaseService} from "../../../share/services/base.service";
 import {Router} from "@angular/router";
 export interface Time{
