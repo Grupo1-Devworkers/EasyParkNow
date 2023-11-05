@@ -25,6 +25,7 @@ import {SignUpComponent} from "./public/pages/sign-up/sign-up.component";
 import {ReactiveFormsModule} from "@angular/forms";
 import {MatGridListModule} from "@angular/material/grid-list";
 import {HttpClientModule} from "@angular/common/http";
+import { ParkingCardComponent } from './manage-park/component/parking-card/parking-card.component';
 
 
 @NgModule({
@@ -43,6 +44,7 @@ import {HttpClientModule} from "@angular/common/http";
 
     ModalComponent,
     ModalReservationComponent,
+    ParkingCardComponent,
   ],
   imports: [
     AppRoutingModule,
