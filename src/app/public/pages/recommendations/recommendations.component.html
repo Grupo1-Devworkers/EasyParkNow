@@ -1,0 +1,10 @@
+<mat-form-field appearance="outline" style="margin-top: 5px">
+  <mat-label>Ingresar Distrito</mat-label>
+  <input matInput required [(ngModel)]="district">
+</mat-form-field>
+<button mat-button (click)="searchParking()">Buscar Recomendados</button>
+<mat-card *ngFor="let parkingLot of parkingLots" style="margin: 20px">
+  <mat-card-header>
+    <mat-card-title>{{parkingLot.name}}</mat-card-title>
+  </mat-card-header>
+</mat-card>

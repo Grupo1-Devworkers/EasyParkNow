@@ -1,0 +1,20 @@
+{
+  "parkings": [
+    {
+      "name": "Playa Camilo",
+      "district": "Chorrillos"
+    },
+    {
+      "name": "Playa San Jorge",
+      "district": "San Juan de Lurigancho"
+    },
+    {
+      "name": "Playa San Lucas",
+      "district": "San Juan de Lurigancho"
+    },
+    {
+      "name": "Playa La mejor",
+      "district": "La Molina"
+    }
+  ]
+}
