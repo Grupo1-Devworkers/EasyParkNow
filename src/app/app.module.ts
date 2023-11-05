@@ -19,6 +19,7 @@ import { ReviewComponent } from './public/pages/review/review.component';
 import {MatIconModule} from "@angular/material/icon";
 import { TopparkingsComponent } from './public/pages/topparkings/topparkings.component';
 import { HistoryComponent } from './public/pages/history/history.component';
+import {MatTableModule} from "@angular/material/table";
 
 @NgModule({
   declarations: [
@@ -32,18 +33,19 @@ import { HistoryComponent } from './public/pages/history/history.component';
     TopparkingsComponent,
     HistoryComponent
   ],
-    imports: [
-        AppRoutingModule,
-        BrowserModule,
-        BrowserAnimationsModule,
-        MatToolbarModule,
-        MatButtonModule,
-        RouterLink,
-        MatCardModule,
-        MatInputModule,
-        MatSelectModule,
-        MatIconModule
-    ],
+  imports: [
+    AppRoutingModule,
+    BrowserModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatButtonModule,
+    RouterLink,
+    MatCardModule,
+    MatInputModule,
+    MatSelectModule,
+    MatIconModule,
+    MatTableModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
