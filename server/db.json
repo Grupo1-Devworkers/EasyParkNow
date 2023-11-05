@@ -28,5 +28,44 @@
       "time": 2,
       "price": 6
     }
+  ],
+
+  "students": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 25,
+      "address": "NoWhere"
+    },
+    {
+      "id": 2,
+      "name": "Jason Bourne",
+      "age": 34,
+      "address": "Unknown"
+    },
+    {
+      "id": 3,
+      "name": "Willian Norton",
+      "age": 30,
+      "address": "One Place"
+    }
+  ],
+  "users": [
+    {
+      "email": "gina@upc.com",
+      "password": "$2a$10$2usIzzKpQ/AcJiQULJAD8eDT4cjByKi1INgKyXlkPEjE2PF352Iwa",
+      "id": 1
+    },
+    {
+      "email": "g@upc.com",
+      "password": "$2a$10$G5N3eLpjIyB43p8SRuv5a.4JXGOsHjCLWSkJZseCK6dbNlkm9pfsa",
+      "id": 2
+    },
+    {
+      "email": "lastra@upc.com",
+      "password": "$2a$10$NzcYbsG5Nyzd4KLYRZu2N.bfyN1wqjmCUJd3Yr6rkqGfKRlPC5HR6",
+      "id": 3
+    }
   ]
 }
+

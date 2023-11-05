@@ -14,6 +14,7 @@ import {MatInputModule} from "@angular/material/input";
 import {MatSelectModule} from "@angular/material/select";
 import { MapComponent } from './public/pages/map/map.component';
 import { HomeComponent } from './public/pages/home/home.component';
+
 import { LoginComponent } from './public/pages/login/login.component';
 import { ReviewComponent } from './public/pages/review/review.component';
 import {MatIconModule} from "@angular/material/icon";
@@ -23,6 +24,15 @@ import {MatTableModule} from "@angular/material/table";
 import {ModalComponent} from "./public/pages/modal/modal.component";
 import {ModalReservationComponent} from "./public/pages/modal-reservation/modal-reservation.component";
 
+import { ModalComponent } from './public/pages/modal/modal.component';
+import { ModalReservationComponent } from './public/pages/modal-reservation/modal-reservation.component';
+import {SignInComponent} from "./public/pages/sign-in/sign-in.component";
+import {SignUpComponent} from "./public/pages/sign-up/sign-up.component";
+import {ReactiveFormsModule} from "@angular/forms";
+import {MatGridListModule} from "@angular/material/grid-list";
+import {HttpClientModule} from "@angular/common/http";
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,16 +40,22 @@ import {ModalReservationComponent} from "./public/pages/modal-reservation/modal-
     PageNotFoundComponent,
     MapComponent,
     HomeComponent,
+
     LoginComponent,
     ReviewComponent,
     TopparkingsComponent,
     HistoryComponent,
+
+    SignInComponent,
+    SignUpComponent,
+
     ModalComponent,
-    ModalReservationComponent
+    ModalReservationComponent,
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
+    HttpClientModule,
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
@@ -47,8 +63,14 @@ import {ModalReservationComponent} from "./public/pages/modal-reservation/modal-
     MatCardModule,
     MatInputModule,
     MatSelectModule,
+
     MatIconModule,
     MatTableModule
+
+    ReactiveFormsModule,
+    MatGridListModule,
+    MatInputModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

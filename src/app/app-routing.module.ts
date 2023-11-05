@@ -10,9 +10,15 @@ import {TopparkingsComponent} from "./public/pages/topparkings/topparkings.compo
 import {HistoryComponent} from "./public/pages/history/history.component";
 import {ModalComponent} from "./public/pages/modal/modal.component";
 import {ModalReservationComponent} from "./public/pages/modal-reservation/modal-reservation.component";
+import {SignInComponent} from "./public/pages/sign-in/sign-in.component";
+import {SignUpComponent} from "./public/pages/sign-up/sign-up.component";
+
 
 const routes: Routes = [
-  {path:'login', component: LoginComponent},
+  {path:'home', component : HomeComponent},
+  {path: '', redirectTo: 'home', pathMatch: 'full'},
+  {path: 'sign-in', component: SignInComponent},
+  {path: 'sign-up', component: SignUpComponent},
   {path:'home', component: HomeComponent},
   {path:'', redirectTo:'login', pathMatch:'full'},
   {path:'parking', component: ParkingComponent},

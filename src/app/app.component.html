@@ -1,10 +1,10 @@
-<mat-toolbar class="custom-toolbar">
-  <span>EasyParkNow</span>
-
-  <!--
-  <div class="home-right"></div>
-  <a mat-button *ngFor="let option of options" [routerLink]="option.path">
-    {{ option.tittle }}</a>
-  -->
+<mat-toolbar style="background-color: #B7FFB6;">
+  <div style="display: flex; align-items: center;">
+    <h1 style="margin-right: 20px;">EasyParkNow</h1>
+  </div>
+  <div style="flex-grow: 1;"></div>
+  <a mat-button [routerLink]="'/home'">Home</a>
+  <a *ngIf="getCurrentUser()==null" mat-button [routerLink]="'/sign-up'">Sign Up</a>
+  <a mat-button [routerLink]="'/sign-in'">Sign In</a>
 </mat-toolbar>
 <router-outlet></router-outlet>
