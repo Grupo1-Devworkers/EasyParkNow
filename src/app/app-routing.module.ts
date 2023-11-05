@@ -8,6 +8,8 @@ import {LoginComponent} from "./public/pages/login/login.component";
 import {ReviewComponent} from "./public/pages/review/review.component";
 import {TopparkingsComponent} from "./public/pages/topparkings/topparkings.component";
 import {HistoryComponent} from "./public/pages/history/history.component";
+import {ModalComponent} from "./public/pages/modal/modal.component";
+import {ModalReservationComponent} from "./public/pages/modal-reservation/modal-reservation.component";
 
 const routes: Routes = [
   {path:'login', component: LoginComponent},
@@ -18,6 +20,8 @@ const routes: Routes = [
   {path:'review', component: ReviewComponent},
   {path: 'topparkings', component: TopparkingsComponent},
   {path: 'history', component: HistoryComponent},
+  {path: 'modal', component: ModalComponent},
+  {path: 'modal-reservation', component: ModalReservationComponent},
   {path:'**', component: PageNotFoundComponent},
 
 ];
