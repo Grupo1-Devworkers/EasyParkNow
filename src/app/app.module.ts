@@ -16,6 +16,9 @@ import { MapComponent } from './public/pages/map/map.component';
 import { HomeComponent } from './public/pages/home/home.component';
 import { LoginComponent } from './public/pages/login/login.component';
 import { RecommendationComponent } from './public/pages/recommendations/recommendations.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -36,7 +39,11 @@ import { RecommendationComponent } from './public/pages/recommendations/recommen
     RouterLink,
     MatCardModule,
     MatInputModule,
-    MatSelectModule
+    MatFormFieldModule,
+    MatSelectModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

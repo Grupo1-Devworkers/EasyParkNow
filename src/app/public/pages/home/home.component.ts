@@ -18,7 +18,7 @@ export class HomeComponent {
     this.router.navigate(['./option']);
   }
   onClick() {
-    this.router.navigate(['./parking']);
+    this.router.navigate(['/recommendations']);
   }
 
 }

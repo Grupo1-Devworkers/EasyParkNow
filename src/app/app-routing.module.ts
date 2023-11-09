@@ -5,13 +5,15 @@ import {PageNotFoundComponent} from "./public/pages/page-not-found/page-not-foun
 import {HomeComponent} from "./public/pages/home/home.component";
 import {MapComponent} from "./public/pages/map/map.component";
 import {LoginComponent} from "./public/pages/login/login.component";
+import { RecommendationComponent } from './public/pages/recommendations/recommendations.component';
 
 const routes: Routes = [
   {path:'login', component: LoginComponent},
   {path:'home', component: HomeComponent},
-  {path:'', redirectTo:'login', pathMatch:'full'},
   {path:'parking', component: ParkingComponent},
   {path:'map', component: MapComponent},
+  {path:'recommendations', component: RecommendationComponent},
+  {path:'', redirectTo:'login', pathMatch:'full'},
   {path:'**', component: PageNotFoundComponent},
 
 ];
