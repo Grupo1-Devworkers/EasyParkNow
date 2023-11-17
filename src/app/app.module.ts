@@ -26,6 +26,7 @@ import {ReactiveFormsModule} from "@angular/forms";
 import {MatGridListModule} from "@angular/material/grid-list";
 import {HttpClientModule} from "@angular/common/http";
 import { ParkingCardComponent } from './manage-park/component/parking-card/parking-card.component';
+import { InterfaceOwnerComponent } from './manage-park/component/interface-owner/interface-owner.component';
 
 
 @NgModule({
@@ -45,6 +46,7 @@ import { ParkingCardComponent } from './manage-park/component/parking-card/parki
     ModalComponent,
     ModalReservationComponent,
     ParkingCardComponent,
+    InterfaceOwnerComponent,
   ],
   imports: [
     AppRoutingModule,
