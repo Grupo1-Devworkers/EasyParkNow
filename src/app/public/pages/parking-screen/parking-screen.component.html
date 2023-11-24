@@ -1,21 +1,19 @@
-<div>
+<div class = "margen">
   <div class = "profile">
     <img class="rounded-image" [src]="perfil" alt="home" width="150" height="150">
     <p> Marcos Ramirez Ojeda <br> Nissa Model XI </p>
   </div>
-  <app-parking-card *ngIf="parking" [parking]="parking"></app-parking-card>
-  <button (click)="nextParking()">Siguiente Estacionamiento</button>
 
-  <div class=" contain ">
-    <div class="button">
-      <button class="boton-personalizado"  (click)="clickHome()">BACK</button>
-    </div>
-    <div class="button">
-      <button class="boton-personalizado"  (click)="clickMap()">SEE MAP</button>
-    </div>
-    <div class="button">
-      <button class="boton-personalizado"  (click)="onClick()">NEXT PARKING LOT</button>
-    </div>
+
+
+  <div class = "">
+
+    <app-parking-card *ngIf="parking" [parking]="parking"></app-parking-card>
+    <button (click)="nextParking()">Siguiente Estacionamiento</button>
   </div>
 
+  <div class="">
+    <button class="boton-personalizado"  (click)="clickHome()">BACK</button>
+    <button class="boton-personalizado"  (click)="clickMap()">SEE MAP</button>
+  </div>
 </div>

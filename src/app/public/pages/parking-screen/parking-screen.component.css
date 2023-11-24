@@ -1,3 +1,45 @@
+/* Estilos CSS */
+
+.margen {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.profile {
+
+}
+
+.rounded-image {
+  border-radius: 50%;
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.profile p {
+  margin: 0; /* Elimina el margen predeterminado del párrafo */
+}
+
+.app-parking-card {
+  border: 2px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  flex-grow: 1; /* Hace que la card ocupe el espacio restante vertical */
+}
+
+.contain {
+  display: flex;
+  justify-content: space-between; /* Distribuye los botones horizontalmente */
+}
+
+.button {
+  margin-top: 10px;
+
+}
+
 button {
   background-color: #4CAF50;
   color: white;
@@ -6,7 +48,8 @@ button {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
-  margin-top: 10px; /* Ajusta el margen según sea necesario */
+  margin-left: 10px;
+  margin-right: 20px;
 }
 
 button:hover {
