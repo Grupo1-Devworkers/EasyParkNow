@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {AuthenticationService} from "../../../share/services/authentication.service";
 
 @Component({
   selector: 'app-edit-profile',
@@ -12,14 +13,18 @@ export class EditProfileComponent {
   direccion: string = '';
   contrasena: string = '';
 
+  constructor(
+    private authenticationService: AuthenticationService  // Inyecta el servicio de autenticación
+  ) { }
+
+
+
   guardarCambios() {
-    // Aquí puedes manejar la lógica para guardar los cambios del perfil
-    // Por ejemplo, podrías enviar estos datos a un servicio o API para actualizar el perfil del usuario.
     console.log('Nombre:', this.nombre);
     console.log('Apellido:', this.apellido);
     console.log('Correo:', this.correo);
     console.log('Dirección:', this.direccion);
     console.log('Contraseña:', this.contrasena);
-    // Lógica adicional para guardar los cambios...
+
   }
 }
