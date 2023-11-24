@@ -1,53 +1,28 @@
 {
   "parking": [
     {
-      "id": 1,
-      "name": "parking seguro",
-      "city": "Lima",
-      "street": "Jr Soria",
-      "description": "Estacionate a aqui",
-      "time": 1,
-      "price": 15
+      "imageUrl": "https://static.wikia.nocookie.net/ficcion-sin-limites/images/7/73/Miles_Morales.jpg/revision/latest/scale-to-width-down/425?cb=20220320020218&path-prefix=es",
+      "nombre": "estacionamiento miles",
+      "tarifa": "2",
+      "estrellas": "5",
+      "descripcion": "es miles",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "parking Julio",
-      "city": "Lima",
-      "street": "Av Grau",
-      "description": "Estacionate a aqui",
-      "time": 3,
-      "price": 7
-    },
-
-    {
-      "id": 3,
-      "name": "parking Figueroa",
-      "city": "Lince",
-      "street": "Av Naranjales",
-      "description": "Estacionate a aqui",
-      "time": 2,
-      "price": 6
-    }
-  ],
-
-  "students": [
-    {
-      "id": 1,
-      "name": "John Doe",
-      "age": 25,
-      "address": "NoWhere"
+      "imageUrl": "https://www.lavanguardia.com/files/image_948_465/uploads/2020/04/23/5fa90afbc3a73.jpeg",
+      "nombre": "estacionamiento profesor",
+      "tarifa": "5",
+      "estrellas": "2",
+      "descripcion": "profeee no tengo net",
+      "id": 2
     },
     {
-      "id": 2,
-      "name": "Jason Bourne",
-      "age": 34,
-      "address": "Unknown"
-    },
-    {
-      "id": 3,
-      "name": "Willian Norton",
-      "age": 30,
-      "address": "One Place"
+      "imageUrl": "2wCEAAoHCBYWFRgWFhYYGBgaGhocHBoYHBwYGBwaGhoaGhgYGhgcIy4lHB4rIRgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzQsJCQ0MTQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0MTQ",
+      "nombre": "Pinga",
+      "tarifa": "1000000",
+      "estrellas": "5",
+      "descripcion": "Es pinga",
+      "id": 3
     }
   ],
   "users": [
@@ -68,4 +43,3 @@
     }
   ]
 }
-

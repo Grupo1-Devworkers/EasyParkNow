@@ -20,7 +20,7 @@ export class HomeComponent {
     this.router.navigate(['./option']);
   }
   onClick() {
-    this.router.navigate(['./parking']);
+    this.router.navigate(['./parking-screen']);
   }
   clickTopParking() {
     this.router.navigate(['./topparkings']);

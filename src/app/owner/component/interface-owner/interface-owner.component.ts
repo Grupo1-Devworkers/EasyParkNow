@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-interface-owner',
@@ -6,11 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./interface-owner.component.css']
 })
 export class InterfaceOwnerComponent {
-  toggle:boolean = true;
-  width:string = "calc(100% - 172px)"
+  constructor(private router: Router) {}
 
-  useToggle(t:boolean){
-    this.toggle = t;
-    this.width = this.toggle ? "calc(100% - 172px)" : "100%"
+  navigateToAddParking() {
+    this.router.navigate(['/add-parking']);
+  }
+
+  navigateToParkingList() {
+    this.router.navigate(['/parking-list']);
   }
 }

@@ -1,0 +1,20 @@
+<!-- add-parking.component.html -->
+
+<form [formGroup]="parkingForm" (ngSubmit)="agregarEstacionamiento()">
+  <label for="imageUrl">URL de la Imagen:</label>
+  <input type="text" id="imageUrl" formControlName="imageUrl">
+
+  <label for="nombre">Nombre del Estacionamiento:</label>
+  <input type="text" id="nombre" formControlName="nombre">
+
+  <label for="tarifa">Tarifa:</label>
+  <input type="text" id="tarifa" formControlName="tarifa">
+
+  <label for="estrellas">Número de Estrellas:</label>
+  <input type="text" id="estrellas" formControlName="estrellas">
+
+  <label for="descripcion">Descripción:</label>
+  <textarea id="descripcion" formControlName="descripcion"></textarea>
+
+  <button type="submit" [disabled]="parkingForm.invalid">Agregar Estacionamiento</button>
+</form>
