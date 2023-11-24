@@ -22,11 +22,12 @@ import { ModalComponent } from './public/pages/modal/modal.component';
 import { ModalReservationComponent } from './public/pages/modal-reservation/modal-reservation.component';
 import {SignInComponent} from "./public/pages/sign-in/sign-in.component";
 import {SignUpComponent} from "./public/pages/sign-up/sign-up.component";
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatGridListModule} from "@angular/material/grid-list";
 import {HttpClientModule} from "@angular/common/http";
 import { ParkingCardComponent } from './manage-park/component/parking-card/parking-card.component';
 import {MatMenuModule} from "@angular/material/menu";
+import { EditProfileComponent } from './public/pages/edit-profile/edit-profile.component';
 
 
 @NgModule({
@@ -46,26 +47,29 @@ import {MatMenuModule} from "@angular/material/menu";
     ModalComponent,
     ModalReservationComponent,
     ParkingCardComponent,
-  ],
-    imports: [
-        AppRoutingModule,
-        BrowserModule,
-        HttpClientModule,
-        BrowserAnimationsModule,
-        MatToolbarModule,
-        MatButtonModule,
-        RouterLink,
-        MatCardModule,
-        MatInputModule,
-        MatSelectModule,
-        MatIconModule,
-        MatTableModule,
-        ReactiveFormsModule,
-        MatGridListModule,
-        MatInputModule,
-        MatMenuModule,
+    EditProfileComponent,
 
-    ],
+  ],
+  imports: [
+    AppRoutingModule,
+    BrowserModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatToolbarModule,
+    MatButtonModule,
+    RouterLink,
+    MatCardModule,
+    MatInputModule,
+    MatSelectModule,
+    MatIconModule,
+    MatTableModule,
+    ReactiveFormsModule,
+    MatGridListModule,
+    MatInputModule,
+    MatMenuModule,
+    FormsModule,
+
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -11,6 +11,8 @@ import {ModalComponent} from "./public/pages/modal/modal.component";
 import {ModalReservationComponent} from "./public/pages/modal-reservation/modal-reservation.component";
 import {SignInComponent} from "./public/pages/sign-in/sign-in.component";
 import {SignUpComponent} from "./public/pages/sign-up/sign-up.component";
+import {EditProfileComponent} from "./public/pages/edit-profile/edit-profile.component";
+
 
 
 const routes: Routes = [
@@ -23,6 +25,7 @@ const routes: Routes = [
   {path:'review', component: ReviewComponent},
   {path:'topparkings', component: TopparkingsComponent},
   {path:'history', component: HistoryComponent},
+  {path: 'edit-profile', component:EditProfileComponent},
   {path:'modal', component: ModalComponent},
   {path:'modal-reservation', component: ModalReservationComponent},
   {path:'**', component: PageNotFoundComponent},
