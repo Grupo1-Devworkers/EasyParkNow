@@ -4,6 +4,7 @@
   </div>
   <div style="flex-grow: 1;"></div>
   <a mat-button [routerLink]="'/home'">Home</a>
+  <a mat-button [routerLink]="'/interface-owner'">Create Parking</a>
   <a *ngIf="getCurrentUser()==null" mat-button [routerLink]="'/sign-up'">Sign Up</a>
   <a mat-button [routerLink]="'/sign-in'">Sign In</a>
 </mat-toolbar>

@@ -27,6 +27,7 @@ export class AppComponent {
     else
       return null;
   }
+
   getCurrentTokenUser (){
     let tokenString = localStorage.getItem('accessToken');
     if(tokenString) {

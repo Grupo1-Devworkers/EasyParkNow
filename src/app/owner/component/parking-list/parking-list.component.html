@@ -1,11 +1,14 @@
 <!-- parking-list.component.html -->
 
-<div *ngFor="let parking of parkings" class="parking-card">
-  <img [src]="parking.imageUrl" alt="Parking Image">
-  <h3>{{ parking.nombre }}</h3>
-  <p>Tarifa: {{ parking.tarifa }}</p>
-  <p>Estrellas: {{ parking.estrellas }}</p>
-  <p>{{ parking.descripcion }}</p>
+<div class="parking-cards-container">
+  <div *ngFor="let parking of parkings" class="parking-card">
+    <img [src]="parking.imageUrl" alt="Parking Image" class="card-image">
+    <div class="card-details">
+      <h3>{{ parking.nombre }}</h3>
+      <p class="card-info">Tarifa: {{ parking.tarifa }}</p>
+      <p class="card-info">Estrellas: {{ parking.estrellas }}</p>
+      <p class="card-info">{{ parking.descripcion }}</p>
+    </div>
+  </div>
 </div>
-
-
+<button routerLink="/interface-owner" class="back-button">Atrás</button>

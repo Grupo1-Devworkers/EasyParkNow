@@ -12,7 +12,7 @@ export class InterfaceOwnerComponent {
   navigateToAddParking() {
     this.router.navigate(['/add-parking']);
   }
-
+  perfil: string = 'assets/anime.jpg';
   navigateToParkingList() {
     this.router.navigate(['/parking-list']);
   }

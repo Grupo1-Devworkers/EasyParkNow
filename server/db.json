@@ -1,20 +1,28 @@
 {
   "parking": [
     {
-      "imageUrl": "https://static.wikia.nocookie.net/ficcion-sin-limites/images/7/73/Miles_Morales.jpg/revision/latest/scale-to-width-down/425?cb=20220320020218&path-prefix=es",
-      "nombre": "estacionamiento miles",
-      "tarifa": "2",
-      "estrellas": "5",
-      "descripcion": "es miles",
+      "imageUrl": "https://peruretail.sfo3.cdn.digitaloceanspaces.com/wp-content/uploads/control-parking-2.jpg",
+      "nombre": "Av. Nicolas Arriola - Av. Canada Estacionamiento Persal",
+      "tarifa": "2 x hora",
+      "estrellas": "5 Estrellas",
+      "descripcion": "Bienvenido/a a Persal, un espacio seguro y conveniente para estacionar tu vehículo. Nuestro estacionamiento se encuentra ubicado en Av. Nicolas Arriola - Av. Canada, brindando fácil acceso al Parque del Encuentro.",
       "id": 1
     },
     {
-      "imageUrl": "https://www.lavanguardia.com/files/image_948_465/uploads/2020/04/23/5fa90afbc3a73.jpeg",
-      "nombre": "estacionamiento profesor",
-      "tarifa": "5",
-      "estrellas": "2",
-      "descripcion": "profeee no tengo net",
+      "imageUrl": "https://www.cvdi.com.pe/wp-content/uploads/2016/05/senalizacion-estacionamientos-1.jpg",
+      "nombre": "Av. Alfredo Benavides - Av Caminos del Inca Estacionamiento Superior",
+      "tarifa": "5 x hora",
+      "estrellas": "4 Estrellas",
+      "descripcion": "Bienvenido a Estacionamiento Superior, donde la elegancia y la comodidad se fusionan para ofrecer una experiencia de estacionamiento excepcional. Este estacionamiento de categoría premium está estratégicamente ubicado en el corazón del distrito financiero, ofreciendo acceso conveniente a las principales atracciones de la ciudad y a las áreas comerciales de lujo.",
       "id": 2
+    },
+    {
+      "imageUrl": "https://peruretail.sfo3.cdn.digitaloceanspaces.com/wp-content/uploads/estacionamiento-mall-2.jpg",
+      "nombre": "Av. Los Castillos - Av Jorge Chavez - Plaza Central Parking",
+      "tarifa": "4 x hora",
+      "estrellas": "4 Estrellas",
+      "descripcion": "¡Bienvenido a Plaza Central Parking, el epicentro de estacionamiento en la bulliciosa área del Centro Urbano! Este estacionamiento concurrido es la opción ideal para aquellos que buscan una solución conveniente y accesible en el corazón de la acción urbana. Con una ubicación estratégica cerca de tiendas, restaurantes y eventos locales, Plaza Central Parking ofrece la comodidad que necesitas en medio del ajetreo y bullicio de la ciudad.",
+      "id": 3
     }
   ],
   "users": [

@@ -1,4 +1,3 @@
-// parking-screen.component.ts
 
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
@@ -11,7 +10,7 @@ import {Router} from "@angular/router";
 export class ParkingScreenComponent implements OnInit {
   parking: any;
   perfil: string = 'assets/anime.jpg';
-  currentParkingId: number = 1; // ID del primer estacionamiento, puedes ajustarlo según tu estructura de datos
+  currentParkingId: number = 1;
 
   constructor(private http: HttpClient, private router: Router) { }
   clickMap() {
@@ -28,7 +27,6 @@ export class ParkingScreenComponent implements OnInit {
   }
 
   loadParking() {
-    // Obtén datos de un estacionamiento desde el servidor
     this.http.get<any>(`http://localhost:3000/parking/${this.currentParkingId}`)
       .subscribe(data => {
         this.parking = data;
@@ -36,7 +34,6 @@ export class ParkingScreenComponent implements OnInit {
   }
 
   nextParking() {
-    // Incrementa el ID del estacionamiento para obtener el siguiente
     this.currentParkingId++;
     this.loadParking();
   }

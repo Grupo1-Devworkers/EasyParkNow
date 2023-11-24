@@ -32,13 +32,13 @@ ul {
 
 .container {
   display: flex;
-  align-items: center; /* Centra verticalmente */
-  justify-content: center; /* Centra horizontalmente */
+  align-items: center;
+  justify-content: center;
 }
 
 .centered-text {
   font-size: 25px;
-  margin-right: 40px; /* Ajusta el espacio entre la imagen y el texto según tus necesidades */
+  margin-right: 40px;
 }
 
 .custom-button {
