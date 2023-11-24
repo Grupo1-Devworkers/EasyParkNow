@@ -12,10 +12,12 @@ import {ModalReservationComponent} from "./public/pages/modal-reservation/modal-
 import {SignInComponent} from "./public/pages/sign-in/sign-in.component";
 import {SignUpComponent} from "./public/pages/sign-up/sign-up.component";
 import {EditProfileComponent} from "./public/pages/edit-profile/edit-profile.component";
+import {AppHomeComponent} from "./public/pages/app-home/app-home.component";
 
 
 
 const routes: Routes = [
+  {path:'app-home', component:AppHomeComponent},
   {path:'home', component : HomeComponent},
   {path:'', redirectTo: 'home', pathMatch: 'full'},
   {path:'sign-in', component: SignInComponent},

@@ -28,6 +28,7 @@ import {HttpClientModule} from "@angular/common/http";
 import { ParkingCardComponent } from './manage-park/component/parking-card/parking-card.component';
 import {MatMenuModule} from "@angular/material/menu";
 import { EditProfileComponent } from './public/pages/edit-profile/edit-profile.component';
+import { AppHomeComponent } from './public/pages/app-home/app-home.component';
 
 
 @NgModule({
@@ -48,6 +49,7 @@ import { EditProfileComponent } from './public/pages/edit-profile/edit-profile.c
     ModalReservationComponent,
     ParkingCardComponent,
     EditProfileComponent,
+    AppHomeComponent,
 
   ],
   imports: [
