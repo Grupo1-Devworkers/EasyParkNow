@@ -18,7 +18,7 @@ export class SignUpComponent {
     this.signUpForm = this.builder.group({
       email:['', [Validators.email, Validators.required]],
       password:['', [Validators.required, Validators.minLength(6)]]
-      });
+    });
   }
 
   get email(){
