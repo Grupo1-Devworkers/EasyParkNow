@@ -1,5 +1,19 @@
 /* parking-card.component.css */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
 
+button:hover {
+  background-color: #45a049;
+}
 .parking-card {
   border: 1px solid #ddd;
   padding: 15px;

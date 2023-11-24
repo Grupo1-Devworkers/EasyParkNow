@@ -1,20 +1,20 @@
-import { Component, Input } from '@angular/core';
-import {Time} from "@angular/common";
+import {Component, Input, OnInit} from '@angular/core';
 import {BaseService} from "../../../share/services/base.service";
 import {Router} from "@angular/router";
-
+export interface Time{
+  value: number;
+  viewValue:string;
+}
 @Component({
   selector: 'app-parking-card',
   templateUrl: './parking-card.component.html',
   styleUrls: ['./parking-card.component.css']
 })
-export class ParkingCardComponent {
+export class ParkingCardComponent implements OnInit {
   @Input() parking: any;
 
-  perfil: string = 'assets/anime.jpg';
   estacionamiento: string = 'assets/estacionamiento.jpeg';
-  star_black: string = 'assets/star black.png';
-  star: string = 'assets/star.png';
+
 
   times: Time[] = [
     {value: 1, viewValue: '1 hora'},
