@@ -1,0 +1,27 @@
+
+<div class="edit-profile-container">
+  <h1>Editar Perfil</h1>
+  <form (ngSubmit)="guardarCambios()" #perfilForm="ngForm">
+    <div class="form-group">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" [(ngModel)]="nombre" required>
+    </div>
+    <div class="form-group">
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" [(ngModel)]="apellido" required>
+    </div>
+    <div class="form-group">
+      <label for="correo">Correo Electrónico:</label>
+      <input type="email" id="correo" name="correo" [(ngModel)]="correo" required email>
+    </div>
+    <div class="form-group">
+      <label for="correo">Dirección:</label>
+      <input type="email" id="direccion" name="direccion" [(ngModel)]="direccion" required direccion>
+    </div>
+    <div class="form-group">
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" name="contrasena" [(ngModel)]="contrasena" required>
+    </div>
+    <button type="submit">Guardar Cambios</button>
+  </form>
+</div>

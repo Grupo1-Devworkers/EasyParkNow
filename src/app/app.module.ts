@@ -22,7 +22,7 @@ import { ModalComponent } from './public/pages/modal/modal.component';
 import { ModalReservationComponent } from './public/pages/modal-reservation/modal-reservation.component';
 import {SignInComponent} from "./public/pages/sign-in/sign-in.component";
 import {SignUpComponent} from "./public/pages/sign-up/sign-up.component";
-import {ReactiveFormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {MatGridListModule} from "@angular/material/grid-list";
 import {HttpClientModule} from "@angular/common/http";
 import { InterfaceOwnerComponent } from './owner/component/interface-owner/interface-owner.component';
@@ -30,6 +30,7 @@ import { AddParkingComponent } from './owner/component/add-parking/add-parking.c
 import { ParkingListComponent } from './owner/component/parking-list/parking-list.component';
 import { ParkingCardComponent } from './public/component/parking-card/parking-card.component';
 import { ParkingScreenComponent } from './public/pages/parking-screen/parking-screen.component';
+import {MatMenuModule} from "@angular/material/menu";
 
 
 @NgModule({
@@ -50,6 +51,8 @@ import { ParkingScreenComponent } from './public/pages/parking-screen/parking-sc
     ParkingListComponent,
     ParkingCardComponent,
     ParkingScreenComponent,
+
+
   ],
   imports: [
     AppRoutingModule,
@@ -67,6 +70,8 @@ import { ParkingScreenComponent } from './public/pages/parking-screen/parking-sc
     ReactiveFormsModule,
     MatGridListModule,
     MatInputModule,
+    MatMenuModule,
+    FormsModule,
 
   ],
   providers: [],
