@@ -1,10 +1,19 @@
-<mat-toolbar class="custom-toolbar">
-  <span>EasyParkNow</span>
+<mat-toolbar style="background-color: #B7FFB6;">
+  <div style="display: flex; align-items: center;">
+    <h1 style="margin-right: 20px;">EasyParkNow</h1>
+  </div>
+  <div style="flex-grow: 1;"></div>
+  <a mat-button [routerLink]="'/home'">Home</a>
+  <a *ngIf="getCurrentUser()==null" mat-button [routerLink]="'/sign-up'">Sign Up</a>
+  <a mat-button [routerLink]="'/sign-in'">Sign In</a>
 
-  <!--
-  <div class="home-right"></div>
-  <a mat-button *ngFor="let option of options" [routerLink]="option.path">
-    {{ option.tittle }}</a>
-  -->
+  <!-- Botón desplegable "User" -->
+  <mat-menu #userMenu="matMenu">
+    <button mat-menu-item [routerLink]="'/parking'">Conductor</button>
+    <button mat-menu-item [routerLink]="'/user/parking-owner'">Dueño de estacionamiento</button>
+  </mat-menu>
+  <button mat-icon-button [matMenuTriggerFor]="userMenu">
+    User <mat-icon>arrow_drop_down</mat-icon>
+  </button>
 </mat-toolbar>
 <router-outlet></router-outlet>

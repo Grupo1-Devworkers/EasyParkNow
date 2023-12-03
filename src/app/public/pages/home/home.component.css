@@ -51,3 +51,11 @@ ul {
   margin-top: 20px;
 }
 
+.profile-top{
+  display: flex;
+  align-items: center;
+}
+
+.img-top-parking{
+  margin-left: 300px;
+}

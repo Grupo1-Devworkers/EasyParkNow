@@ -1,0 +1,80 @@
+/* Estilos para el contenedor principal */
+.home-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para la imagen de fondo */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('src/assets/parkhome.jpeg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(7px); /* Desenfoque */
+  z-index: -1; /* Asegura que el fondo esté detrás del contenido */
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 1200px;
+  z-index: 1; /* Asegura que el contenido esté sobre el fondo */
+}
+
+.text-column {
+  flex: 1;
+  padding: 20px;
+  color: white;
+}
+
+.text-column h1 {
+  font-size: 5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.text-column p {
+  font-size: 1.5em;
+}
+
+.image-column {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-column img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+/* Estilos para el botón "Get started" */
+.get-started-button {
+  margin-top: 10px; /* Espacio superior para separar del contenido anterior */
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #B7FFB6; /* Color de fondo del botón */
+  color: #fff; /* Color del texto */
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block; /* Mostrar el botón como bloque para ajustarse al tamaño del contenido */
+  width: auto; /* Ancho automático basado en el tamaño del contenido */
+}
+
+.get-started-button:hover {
+  background-color: #9AD98D; /* Cambio de color al pasar el cursor */
+}
